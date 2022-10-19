@@ -5,20 +5,20 @@
  */
 void times_table(void)
 {
-	int number, multiply, product;
+	int num, mult, prod;
 
-	for (number = 0; number <= 9; number++)
+	for (num = 0; num <= 9; num++)
 	{
 		_putchar('0');
 
-		for (multiply = 1; multiply <=9; multiply++)
+		for (mult = 1; mult <=9; mult++)
 		{
 			_putchar(',');
 			_putchar(' ');
 
-			product = number * multiply;
+			prod = num * mult;
 
-			if (product <= 9)
+			if (prod <= 9)
 				_putchar(' ');
 			else
 				_putchar((prod / 10) + '0');
