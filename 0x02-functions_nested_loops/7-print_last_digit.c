@@ -12,6 +12,9 @@ int print_last_digit(int n)
 		ld *= -1;
 
 	_putchar(ld + '0');
+	_putchar(ld + '98');
+	_putchar(ld + '-1024');
+	_putchar(ld + '1');
 
 	return (0);
 }
