@@ -1,7 +1,7 @@
-#ifndef 3_FUNCTION_LIKE_MACRO_H
-#define 3_FUNCTION_LIKE_MACRO_H
+#ifndef 3-FUNCTION_LIKE_MACRO_H
+#define 3-FUNCTION_LIKE_MACRO_H
 
 #define ABS(x) ((x) < 0 ? (-(x)) : (x))
 
-#endif /* 3_FUNCTION_LIKE_MACRO_H */
+#endif /* 3-FUNCTION_LIKE_MACRO_H */
 ~
